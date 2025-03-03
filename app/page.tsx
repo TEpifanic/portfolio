@@ -63,9 +63,9 @@ export default function Portfolio() {
             </div>
           </div>
           <h1 className="text-5xl font-bold mb-6">
-            Développement web <span className="bg-blue-500/20 px-2 rounded">clé en main.</span>
+            Développement web <span className="bg-blue-500/20 px-2 rounded inline-block">clé en main.</span>
           </h1>
-          <div className="flex items-center gap-8 text-xl font-medium text-gray-200">
+          <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-8 text-xl font-medium text-gray-200">
             <span>MAINTENANCE</span>
             <ArrowRight className="w-6 h-6" />
             <span>INNOVATION</span>
@@ -363,19 +363,19 @@ export default function Portfolio() {
         <footer className="container mx-auto px-4 py-12">
           <Card className="bg-white/10">
             <CardContent className="p-6">
-              <div className="flex items-center justify-between">
+              <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
                 <div className="space-y-2">
                   <h2 className="text-2xl font-bold text-white">Prêt à démarrer votre projet ?</h2>
                   <p className="text-gray-200">Prenez RDV pour discuter de vos besoins</p>
                 </div>
-                <div className="flex gap-4">
-                  <Button variant="secondary" asChild>
+                <div className="flex gap-4 w-full sm:w-auto">
+                  <Button variant="secondary" asChild className="flex-1 sm:flex-initial">
                     <Link href="mailto:tanguy.epifanic@gmail.com">
                       <Mail className="w-4 h-4 mr-2" />
                       Contact
                     </Link>
                   </Button>
-                  <Button asChild>
+                  <Button asChild className="flex-1 sm:flex-initial">
                     <Link href="https://calendly.com/tanguy-epifanic" target="_blank" rel="noopener noreferrer">
                       Prendre RDV
                       <ArrowRight className="w-4 h-4 ml-2" />

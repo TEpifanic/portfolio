@@ -562,12 +562,11 @@ export default function Portfolio() {
                           {t.collocShareDesc}
                         </p>
                         <div className="flex flex-wrap gap-2">
+                          <Badge>Next.js</Badge>
                           <Badge>React</Badge>
-                          <Badge>Node.js</Badge>
-                          <Badge>MongoDB</Badge>
-                          <Badge>Express</Badge>
-                          <Badge>Socket.IO</Badge>
-                          <Badge>JWT</Badge>
+                          <Badge>TypeScript</Badge>
+                          <Badge>Prisma</Badge>
+                          <Badge>PostgreSQL</Badge>
                           <Badge>Tailwind CSS</Badge>
                         </div>
                       </div>

@@ -333,13 +333,13 @@ export default function Portfolio() {
               <div className="flex gap-4">
                 <Button asChild>
                   <Link href="https://www.linkedin.com/in/tanguy-epifanic/" target="_blank" rel="noopener noreferrer">
-                    <Linkedin className="w-4 h-4 mr-2" />
+                    <Linkedin className="w-5 h-5 mr-2" />
                     {t.linkedin}
                   </Link>
                 </Button>
-                <Button variant="outline" asChild className="bg-[#FC5757] text-white hover:bg-[#FC5757]/90 hover:text-white border-0">
+                <Button variant="outline" asChild className="bg-white hover:bg-white/90 text-[#FC5757] hover:text-[#FC5757] border-0">
                   <Link href="https://www.malt.fr/profile/tanguyepifanic" target="_blank" rel="noopener noreferrer">
-                    <svg className="w-4 h-4 mr-2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg className="w-5 h-5 mr-2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M12 2L2 7L12 12L22 7L12 2Z" fill="currentColor" />
                       <path d="M2 17L12 22L22 17" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                       <path d="M2 12L12 17L22 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -349,7 +349,7 @@ export default function Portfolio() {
                 </Button>
                 <Button variant="secondary" asChild>
                   <Link href="mailto:tanguy.epifanic@gmail.com">
-                    <Mail className="w-4 h-4 mr-2" />
+                    <Mail className="w-5 h-5 mr-2" />
                     {t.contact}
                   </Link>
                 </Button>

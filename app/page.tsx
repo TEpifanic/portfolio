@@ -197,9 +197,9 @@ export default function Portfolio() {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(30,58,138,0.3)_0%,transparent_50%)] blur-[100px]" />
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_right,rgba(103,0,26,0.2)_0%,transparent_50%)] blur-[100px]" />
       </div>
-      <div className="relative">
+      <div className="relative overflow-x-hidden">
         {/* Hero Section */}
-        <header className="container mx-auto px-4 py-20 text-white">
+        <header className="container mx-auto px-2 sm:px-4 py-20 text-white">
           <div className="flex items-center gap-4 mb-4">
             {/* Tech Stack Icons */}
             <div className="flex gap-2">
@@ -313,7 +313,7 @@ export default function Portfolio() {
         </header>
 
         {/* Introduction & Stats Section */}
-        <section className="container mx-auto px-4 py-16">
+        <section className="container mx-auto px-2 sm:px-4 py-16">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Introduction */}
             <div className="space-y-6">
@@ -394,7 +394,7 @@ export default function Portfolio() {
         </section>
 
         {/* Main Content */}
-        <main className="container mx-auto px-4 py-12">
+        <main className="container mx-auto px-2 sm:px-4 py-12">
           <Tabs defaultValue="experience" className="w-full">
             <TabsList className="w-full justify-start bg-white/10 text-white mb-8">
               <TabsTrigger value="experience" className="text-lg py-2 px-4">{t.experience}</TabsTrigger>
@@ -608,7 +608,7 @@ export default function Portfolio() {
         </main>
 
         {/* Contact Section */}
-        <footer className="container mx-auto px-4 py-12">
+        <footer className="container mx-auto px-2 sm:px-4 py-12">
           <Card className="bg-white/10">
             <CardContent className="p-6">
               <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">

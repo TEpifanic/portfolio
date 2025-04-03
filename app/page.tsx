@@ -49,32 +49,42 @@ const translations = {
     
     // Experience
     lexisNexisTitle: "LexisNexis Paris - Développeur Full Stack C#.NET et React",
-    lexisNexisDate: "Nov. 2024 - Présent",
-    lexisNexisDesc1: "Développement de nouvelles fonctionnalités, de tests unitaires et maintenance de l'application au sein de l'équipe IFU",
-    lexisNexisDesc2: "Participation à un projet majeur de refactoring visant à réduire la dette technique, utilisant SonarQube et SonarLint pour améliorer la qualité du code (réduction de 40% de la complexité cognitive)",
-    lexisNexisDesc3: "Modernisation de l'interface utilisateur en migrant de Kendo UI/Razor vers React, incluant la mise en place d'une documentation exhaustive et de bonnes pratiques de développement",
-    lexisNexisDesc4: "Processus de revue de code structuré régulier et validation fonctionnelle des tickets",
-    lexisNexisDesc5: "Utilisation d'IA générative",
-    lexisNexisDesc6: "Responsabilités temporaires de Scrum Master",
+    lexisNexisDate: "Freelance, Nov. 2024 - Présent, Remote",
+    lexisNexisDesc1: "Conception et développement de fonctionnalités personnalisées, implémentation de tests unitaires et optimisation continue de l'application pour l'équipe IFU",
+    lexisNexisDesc2: "Pilotage stratégique d'un projet majeur de refactoring pour réduire la dette technique, avec mise en place d'outils d'analyse de code (SonarQube et SonarLint) ayant permis une réduction de 40% de la complexité cognitive",
+    lexisNexisDesc3: "Expertise technique dans la modernisation de l'interface utilisateur : migration complète de Kendo UI/cshtml vers React, incluant l'élaboration d'une documentation exhaustive et l'établissement de bonnes pratiques de développement",
+    lexisNexisDesc4: "Optimisation des procédures stockées SQL et requêtes complexes, améliorant significativement les performances de récupération et de traitement des données",
+    lexisNexisDesc5: "Configuration et optimisation des pipelines CI/CD via Azure DevOps, automatisant le déploiement et assurant la qualité continue du code",
+    lexisNexisDesc6: "Apport d'expertise lors des sessions de revue de code structurées et validation fonctionnelle approfondie des livrables",
+    lexisNexisDesc7: "Intégration de solutions d'IA générative adaptées aux besoins spécifiques du projet",
+    lexisNexisDesc8: "Mise en place et amélioration des processus agiles à travers Azure DevOps, incluant la gestion des backlogs et le reporting",
+    lexisNexisDesc9: "Prise en charge ponctuelle des responsabilités de Scrum Master, garantissant la continuité et l'efficacité des processus agiles",
     
     figaroTitle: "Figaro Classifieds Paris - Développeur Full Stack Go et Vue",
-    figaroDate: "Avr. 2024 - Nov. 2024",
-    figaroDesc1: "Développement de nouvelles fonctionnalités et de tests unitaires et d'intégration augmentant la couverture de code de 40% à 80% au sein de l'équipe Emploi",
-    figaroDesc2: "Participation à la transition Vue 2 - Vue 3, et JavaScript - TypeScript",
-    figaroDesc3: "Optimisation du SEO ayant conduit à une augmentation de 35% du trafic organique : implémentation d'agrégations Elasticsearch, génération automatisée de sitemaps et création de landing pages optimisées",
-    figaroDesc4: "Participation aux revues de code",
-    figaroDesc5: "Utilisation d'IA générative",
-    figaroDesc6: "Implémentation d'une stratégie de migration CDN sur GCP, réduisant les temps de chargement des images de 60% et optimisant les coûts de stockage",
-    figaroDesc7: "Gestion de la disponibilité du site - analyse des logs via Datadog et GCP",
+    figaroDate: "Freelance, Avr. 2024 - Nov. 2024, Remote",
+    figaroDesc1: "Conception et développement de nouvelles fonctionnalités clés, de tests unitaires (augmentation de la couverture de 40% à 80%) pour l'équipe Emploi",
+    figaroDesc2: "Audit et optimisation SEO résultant en une croissance de 35% du trafic organique : implémentation d'agrégations Elasticsearch personnalisées, automatisation de la génération de sitemaps et création de landing pages optimisées pour la conversion",
+    figaroDesc3: "Migration de Vue 2 à Vue 3, de Bootstrap à Vuetify, incluant la refonte des composants et l'adoption de la Composition API pour améliorer la maintenabilité du code",
+    figaroDesc4: "Intégration de solutions d'IA générative adaptées aux besoins spécifiques du projet",
+    figaroDesc5: "Apport d'expertise technique lors des sessions de code reviews et recommandations d'améliorations",
+    figaroDesc6: "Élaboration et déploiement d'une stratégie de migration CDN sur GCP, générant une réduction de 60% des temps de chargement des images et une optimisation significative des coûts de stockage",
+    figaroDesc7: "Développement sur mesure et déploiement d'API REST adaptées aux exigences métier, avec documentation Swagger complète",
+    figaroDesc8: "Gestion proactive des interventions d'urgence au sein d'une équipe restreinte, assurant la résolution rapide des incidents critiques et garantissant la continuité de service",
+    figaroDesc9: "Mise en place d'un système de monitoring avancé pour assurer la haute disponibilité du site : analyse approfondie des logs Datadog et GCP",
+    figaroDesc10: "Implémentation des normes d'accessibilité WCAG et RGAA, assurant une expérience utilisateur inclusive pour tous les chercheurs d'emploi, y compris les personnes en situation de handicap",
     
     equativTitle: "Equativ Paris - Développeur Full Stack C#.NET et Angular",
-    equativDate: "Oct. 2023 - Mars 2024",
-    equativDesc1: "Développement de nouvelles fonctionnalités et de tests unitaires au sein de l'équipe de la R&D chargée de la gestion des rapports de données publicitaires et de la facturation",
-    equativDesc2: "Participation à la migration vers GCP et à sa mise en production",
-    equativDesc3: "Création et déploiement d'APIs et CI/CD via GitLab et ArgoCD",
+    equativDate: "Freelance, Sept. 2023 - Avr. 2024, Hybride",
+    equativDesc1: "Conception et implémentation de nouvelles fonctionnalités et de tests unitaires (80% de couverture) pour la gestion des rapports de données publicitaires et la facturation, en collaboration avec l'équipe R&D",
+    equativDesc2: "Accompagnement du projet de migration vers le Cloud Google (GCP) et assistance lors de la mise en production",
+    equativDesc3: "Développement sur mesure et déploiement d'API REST adaptées aux besoins spécifiques du projet",
+    equativDesc4: "Optimisation des performances par le refactoring de procédures stockées T-SQL et de bonnes pratiques front (chargement 60% plus rapide)",
+    equativDesc5: "Migration continuelle du projet vers les dernières versions .NET et Angular (.NET 8 et Angular 18)",
+    equativDesc6: "Optimisation des pipelines CI/CD via GitLab, ArgoCD et GCP pour automatiser le déploiement des solutions",
+    equativDesc7: "Apport d'expertise technique lors des sessions de code reviews et recommandations d'améliorations",
     
     ivaluaTitle: "Ivalua Massy Palaiseau - Développeur Full Stack C#.NET et JavaScript",
-    ivaluaDate: "Juin 2020 - Sept. 2023",
+    ivaluaDate: "CDI, Juin 2020 - Sept. 2023, Hybride",
     ivaluaDesc1: "Développement de nouvelles fonctionnalités au sein de l'équipe de la R&D chargée du Procurement to Receipt",
     ivaluaDesc2: "Contribution à la refonte d'une application monolithique vers une architecture microservices, et d'un front Webform à React, afin de réduire le temps de chargement de l'application de 80%",
     ivaluaDesc3: "Participation à la création d'un module sur le calcul de l'empreinte carbone de la chaîne d'approvisionnement",
@@ -133,32 +143,42 @@ const translations = {
     
     // Experience
     lexisNexisTitle: "LexisNexis Paris - C#.NET & React Full Stack Developer",
-    lexisNexisDate: "Nov. 2024 - Present",
-    lexisNexisDesc1: "Development of new features, unit tests, and application maintenance within the IFU team",
-    lexisNexisDesc2: "Participation in a major refactoring project aimed at reducing technical debt, using SonarQube and SonarLint to improve code quality (40% reduction in cognitive complexity)",
-    lexisNexisDesc3: "UI modernization by migrating from Kendo UI/Razor to React, including implementation of comprehensive documentation and development best practices",
-    lexisNexisDesc4: "Regular structured code review process and functional validation of tickets",
-    lexisNexisDesc5: "Use of generative AI",
-    lexisNexisDesc6: "Temporary Scrum Master responsibilities",
+    lexisNexisDate: "Freelance, Nov. 2024 - Present, Remote",
+    lexisNexisDesc1: "Design and development of custom features, unit test implementation and continuous application optimization for the IFU team",
+    lexisNexisDesc2: "Strategic management of a major refactoring project to reduce technical debt, with implementation of code analysis tools (SonarQube and SonarLint) resulting in a 40% reduction in cognitive complexity",
+    lexisNexisDesc3: "Technical expertise in user interface modernization: complete migration from Kendo UI/cshtml to React, including comprehensive documentation development and establishment of development best practices",
+    lexisNexisDesc4: "Optimization of SQL stored procedures and complex queries, significantly improving data retrieval and processing performance",
+    lexisNexisDesc5: "Configuration and optimization of CI/CD pipelines via Azure DevOps, automating deployment and ensuring continuous code quality",
+    lexisNexisDesc6: "Expertise contribution during structured code review sessions and thorough functional validation of deliverables",
+    lexisNexisDesc7: "Integration of generative AI solutions tailored to specific project needs",
+    lexisNexisDesc8: "Implementation and improvement of agile processes through Azure DevOps, including backlog management, Kanban boards and reporting",
+    lexisNexisDesc9: "Temporary management of Scrum Master responsibilities, ensuring continuity and efficiency of agile processes",
     
     figaroTitle: "Figaro Classifieds Paris - Go & Vue Full Stack Developer",
-    figaroDate: "Apr. 2024 - Nov. 2024",
-    figaroDesc1: "Development of new features and unit/integration tests, increasing code coverage from 40% to 80% within the Employment team",
-    figaroDesc2: "Participation in the Vue 2 to Vue 3 transition, and JavaScript to TypeScript",
-    figaroDesc3: "SEO optimization leading to a 35% increase in organic traffic: implementation of Elasticsearch aggregations, automated sitemap generation, and creation of optimized landing pages",
-    figaroDesc4: "Participation in code reviews",
-    figaroDesc5: "Use of generative AI",
-    figaroDesc6: "Implementation of a CDN migration strategy on GCP, reducing image loading times by 60% and optimizing storage costs",
-    figaroDesc7: "Website availability management - log analysis via Datadog and GCP",
+    figaroDate: "Freelance, Apr. 2024 - Nov. 2024, Remote",
+    figaroDesc1: "Design and development of key features, unit tests (increasing coverage from 40% to 80%) for the Employment team",
+    figaroDesc2: "SEO audit and optimization resulting in 35% growth in organic traffic: implementation of custom Elasticsearch aggregations, automation of sitemap generation and creation of conversion-optimized landing pages",
+    figaroDesc3: "Migration from Vue 2 to Vue 3, from Bootstrap to Vuetify, including component redesign and adoption of the Composition API to improve code maintainability",
+    figaroDesc4: "Integration of generative AI solutions tailored to specific project needs",
+    figaroDesc5: "Technical expertise contribution during code review sessions and improvement recommendations",
+    figaroDesc6: "Development and deployment of a CDN migration strategy on GCP, generating a 60% reduction in image loading times and significant optimization of storage costs",
+    figaroDesc7: "Custom development and deployment of REST APIs adapted to business requirements, with complete Swagger documentation",
+    figaroDesc8: "Proactive management of emergency interventions within a small team, ensuring rapid resolution of critical incidents and guaranteeing service continuity",
+    figaroDesc9: "Implementation of an advanced monitoring system to ensure high site availability: in-depth analysis of Datadog and GCP logs",
+    figaroDesc10: "Implementation of WCAG and RGAA accessibility standards, ensuring an inclusive user experience for all job seekers, including people with disabilities",
     
     equativTitle: "Equativ Paris - C#.NET & Angular Full Stack Developer",
-    equativDate: "Oct. 2023 - March 2024",
-    equativDesc1: "Development of new features and unit tests within the R&D team responsible for ad data reporting and billing management",
-    equativDesc2: "Participation in GCP migration and its production deployment",
-    equativDesc3: "Creation and deployment of APIs and CI/CD via GitLab and ArgoCD",
+    equativDate: "Freelance, Sept. 2023 - Apr. 2024, Hybrid",
+    equativDesc1: "Design and implementation of new features and unit tests (80% coverage) for advertising data report management and billing, in collaboration with the R&D team",
+    equativDesc2: "Support for Google Cloud Platform (GCP) migration project and assistance during production deployment",
+    equativDesc3: "Custom development and deployment of REST APIs tailored to specific project needs",
+    equativDesc4: "Performance optimization through T-SQL stored procedures refactoring and front good practices (loading time 60% faster)",
+    equativDesc5: "Continuous project migration to the latest .NET and Angular versions (.NET 8 and Angular 18)",
+    equativDesc6: "Optimization of CI/CD pipelines using GitLab, ArgoCD and GCP to automate solution deployment",
+    equativDesc7: "Technical expertise contribution during code review sessions and improvement recommendations",
     
     ivaluaTitle: "Ivalua Massy Palaiseau - C#.NET & JavaScript Full Stack Developer",
-    ivaluaDate: "June 2020 - Sept. 2023",
+    ivaluaDate: "Permanent, June 2020 - Sept. 2023, Hybrid",
     ivaluaDesc1: "Development of new features within the R&D team responsible for Procurement to Receipt",
     ivaluaDesc2: "Contribution to the refactoring of a monolithic application to a microservices architecture, and from a Webform frontend to React, reducing application loading time by 80%",
     ivaluaDesc3: "Participation in creating a module for calculating the carbon footprint of the supply chain",
@@ -426,6 +446,9 @@ export default function Portfolio() {
                           <li>{t.lexisNexisDesc4}</li>
                           <li>{t.lexisNexisDesc5}</li>
                           <li>{t.lexisNexisDesc6}</li>
+                          <li>{t.lexisNexisDesc7}</li>
+                          <li>{t.lexisNexisDesc8}</li>
+                          <li>{t.lexisNexisDesc9}</li>
                         </ul>
                         <div className="flex flex-wrap gap-2">
                           <Badge>C#</Badge>
@@ -434,6 +457,11 @@ export default function Portfolio() {
                           <Badge>.NET</Badge>
                           <Badge>Moq</Badge>
                           <Badge>Transact-SQL</Badge>
+                          <Badge>Jest</Badge>
+                          <Badge>Postman</Badge>
+                          <Badge>Agile</Badge>
+                          <Badge>Redis</Badge>
+                          <Badge>Dapper</Badge>
                         </div>
                       </div>
                     </div>
@@ -459,6 +487,9 @@ export default function Portfolio() {
                           <li>{t.figaroDesc5}</li>
                           <li>{t.figaroDesc6}</li>
                           <li>{t.figaroDesc7}</li>
+                          <li>{t.figaroDesc8}</li>
+                          <li>{t.figaroDesc9}</li>
+                          <li>{t.figaroDesc10}</li>
                         </ul>
                         <div className="flex flex-wrap gap-2">
                           <Badge>Go</Badge>
@@ -476,6 +507,11 @@ export default function Portfolio() {
                           <Badge>Jest</Badge>
                           <Badge>Terraform</Badge>
                           <Badge>Redis</Badge>
+                          <Badge>Linux</Badge>
+                          <Badge>WSL</Badge>
+                          <Badge>Agile</Badge>
+                          <Badge>Swagger</Badge>
+                          <Badge>Cloudfare</Badge>
                         </div>
                       </div>
                     </div>
@@ -497,6 +533,10 @@ export default function Portfolio() {
                           <li>{t.equativDesc1}</li>
                           <li>{t.equativDesc2}</li>
                           <li>{t.equativDesc3}</li>
+                          <li>{t.equativDesc4}</li>
+                          <li>{t.equativDesc5}</li>
+                          <li>{t.equativDesc6}</li>
+                          <li>{t.equativDesc7}</li>
                         </ul>
                         <div className="flex flex-wrap gap-2">
                           <Badge>C#</Badge>
@@ -510,6 +550,11 @@ export default function Portfolio() {
                           <Badge>Argo CD</Badge>
                           <Badge>Datadog</Badge>
                           <Badge>EF Core</Badge>
+                          <Badge>REST API</Badge>
+                          <Badge>Agile</Badge>
+                          <Badge>Jasmine</Badge>
+                          <Badge>Postman</Badge>
+                          <Badge>Moq</Badge>
                         </div>
                       </div>
                     </div>

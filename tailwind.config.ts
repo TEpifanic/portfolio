@@ -17,16 +17,20 @@ const config: Config = {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ["var(--font-lexend)", "system-ui", "sans-serif"],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
-        gradient: {
-          from: "#67001a",
-          via: "#1e3a8a",
-          to: "#1e40af"
+        // Couleurs relevées sur la bannière LinkedIn
+        brand: {
+          ink: "#0a0c0f",
+          red: "#9b3e3e",
+          blue: "#4796d1",
         },
         primary: {
           DEFAULT: "hsl(var(--primary))",

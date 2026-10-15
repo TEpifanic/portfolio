@@ -1,14 +1,15 @@
 import Link from "next/link"
-import { ArrowRight, CalendarDays, Download, Footprints, HeartHandshake, Linkedin, Mail, MapPin, MessageCircle } from "lucide-react"
+import { ArrowRight, CalendarDays, Download, Footprints, HeartHandshake, Linkedin, Mail, MapPin, Phone } from "lucide-react"
 import {
   Background, CALENDLY, DOSSIER, EMAIL, ExternalLink, Highlight, Identity, LINKEDIN, MALT, MaltIcon,
-  btnBleu, btnRouge, btnSecondaire, clients,
+  btnBleu, btnSecondaire, clients,
 } from "@/components/site/shared"
+import { OnSeVoit } from "@/components/site/on-se-voit"
 
 const promesses = [
-  { icon: Footprints, texte: "Je viens vous voir en vrai, dans votre boutique" },
+  { icon: Footprints, texte: "Je viens à votre boutique, on se parle en face" },
   { icon: HeartHandshake, texte: "Je fais le site que vous voulez, pas le mien" },
-  { icon: MessageCircle, texte: "Un seul contact du début à la fin : moi" },
+  { icon: Phone, texte: "Un truc à changer ? Je repasse, ou vous m'appelez" },
 ]
 
 export default function Home() {
@@ -65,8 +66,7 @@ export default function Home() {
             Des sites sur-mesure pour les <Highlight color="red">commerces du coin</Highlight>
           </h2>
           <p className="mt-5 text-lg text-white/80">
-            Restaurant, coiffeur, boutique… Je crée votre site et je m'occupe de tout.
-            Vous n'avez rien à gérer.
+            Je bosse avec les commerces de quartier. Un message, ou un mail, et c'est parti.
           </p>
           <ul className="mt-6 space-y-3">
             {promesses.map(({ icon: Icon, texte }) => (
@@ -76,10 +76,8 @@ export default function Home() {
             ))}
           </ul>
 
-          <div className="mt-8 flex flex-wrap items-center gap-4">
-            <a href={`mailto:${EMAIL}?subject=Site pour mon commerce`} className={btnRouge}>
-              <Mail className="h-4 w-4" /> Demander un devis gratuit
-            </a>
+          <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-4">
+            <OnSeVoit />
             <span className="flex items-center gap-2 text-sm text-white/70">
               <MapPin className="h-4 w-4" /> Paris et banlieue
             </span>

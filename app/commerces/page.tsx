@@ -1,8 +1,9 @@
 import type { Metadata } from "next"
 import {
-  CalendarDays, Footprints, Handshake, HeartHandshake, Mail, MapPin, MessageCircle, Search, Smartphone, Store, Wrench,
+  CalendarDays, Footprints, Handshake, HeartHandshake, MapPin, Phone, Search, Smartphone, Store, Wrench,
 } from "lucide-react"
-import { Background, DetailHeader, EMAIL, Highlight, btnRouge, carte } from "@/components/site/shared"
+import { Background, DetailHeader, Highlight, carte } from "@/components/site/shared"
+import { OnSeVoit } from "@/components/site/on-se-voit"
 
 export const metadata: Metadata = {
   title: "Agence web | Tanguy Epifanic",
@@ -12,8 +13,8 @@ export const metadata: Metadata = {
 const promesses = [
   {
     icon: Footprints,
-    titre: "Je viens vous voir",
-    texte: "On se rencontre en vrai, dans votre boutique. Je vois comment vous travaillez, vos clients, votre ambiance. Pas de visio à rallonge.",
+    titre: "Je viens à votre boutique",
+    texte: "On se parle en face, chez vous. Je vois comment vous travaillez et qui sont vos clients, c'est comme ça que je comprends ce qu'il vous faut.",
   },
   {
     icon: HeartHandshake,
@@ -21,9 +22,9 @@ const promesses = [
     texte: "Vous me dites ce que vous voulez, je le fais. Je vous conseille si besoin, mais c'est vous qui décidez.",
   },
   {
-    icon: MessageCircle,
-    titre: "Un seul contact : moi",
-    texte: "Pas de commercial, pas de standard. Vous avez une question, vous m'écrivez, je vous réponds.",
+    icon: Phone,
+    titre: "Toujours la même personne",
+    texte: "C'est moi que vous voyez au début, et c'est moi qui fais le site. Une question ? Vous m'appelez, ou je repasse.",
   },
 ]
 
@@ -31,16 +32,16 @@ const offre = [
   { icon: Store, titre: "Un site sur-mesure", texte: "Fait pour votre commerce, pas un modèle tout fait qu'on retrouve partout." },
   { icon: Smartphone, titre: "Parfait sur téléphone", texte: "La plupart de vos clients vont vous chercher depuis leur téléphone. Le site est pensé pour ça." },
   { icon: Search, titre: "Trouvé sur Google", texte: "Référencement local et fiche Google Business, pour sortir quand on cherche un commerce comme le vôtre dans le coin." },
-  { icon: CalendarDays, titre: "Réservation, menu, horaires", texte: "Prise de rendez-vous, carte, click & collect, formulaire de contact : on ajoute ce dont vous avez besoin." },
+  { icon: CalendarDays, titre: "Rendez-vous, horaires, contact", texte: "Prise de rendez-vous, horaires, click & collect, formulaire de contact : on ajoute ce dont vous avez besoin." },
   { icon: Wrench, titre: "Tout est géré", texte: "Nom de domaine, hébergement, sécurité, sauvegardes. Vous n'avez rien à faire de technique." },
   { icon: Handshake, titre: "Suivi après la mise en ligne", texte: "Un changement d'horaires, une nouvelle photo, une promo ? Vous me le dites, je m'en occupe." },
 ]
 
 const etapes = [
-  { titre: "On se rencontre", texte: "Je passe vous voir, on discute de ce que vous voulez. C'est gratuit et sans engagement." },
-  { titre: "Je vous fais un devis", texte: "Un prix clair, sans surprise, avec ce qui est compris dedans." },
-  { titre: "Je vous montre une maquette", texte: "Vous voyez à quoi ressemblera le site avant que je le construise. On ajuste ensemble." },
-  { titre: "Je construis le site", texte: "Je vous tiens au courant, et vous validez chaque étape." },
+  { titre: "Vous m'écrivez", texte: "Un message ou un mail pour me dire qui vous êtes et ce que vous cherchez." },
+  { titre: "Je passe vous voir", texte: "On parle de votre projet dans votre boutique, et je vous fais un devis clair. C'est gratuit et sans engagement." },
+  { titre: "Je vous montre une maquette", texte: "Je reviens vous la montrer : vous voyez à quoi ressemblera le site, et on ajuste ensemble." },
+  { titre: "Je construis le site", texte: "Je vous tiens au courant, au téléphone ou en passant, et vous validez chaque étape." },
   { titre: "C'est en ligne", texte: "Je vous montre comment ça marche, et je reste là si vous avez besoin." },
 ]
 
@@ -56,8 +57,8 @@ export default function Commerces() {
           Un site qui vous ressemble, pour que les gens du quartier vous <Highlight color="red">trouvent</Highlight>.
         </h1>
         <p className="mt-5 max-w-3xl text-lg text-white/80">
-          Restaurant, boulangerie, coiffeur, cabinet, boutique… Je crée des sites sur-mesure pour les commerces de proximité.
-          Pas de jargon, pas de mauvaise surprise : on se voit, on discute, et je fais le site que vous avez en tête.
+          Je bosse avec les commerces de quartier, sur Paris et en banlieue. Un message, ou un mail, et c'est parti.
+          Après, on avance en vrai : je passe vous voir, et le reste se règle sur place ou au téléphone.
         </p>
 
         <div className="mt-12 grid gap-5 md:grid-cols-3">
@@ -92,10 +93,8 @@ export default function Commerces() {
           ))}
         </ol>
 
-        <div className="mt-12 flex flex-wrap items-center gap-3">
-          <a href={`mailto:${EMAIL}?subject=Site pour mon commerce`} className={btnRouge}>
-            <Mail className="h-4 w-4" /> Demander un devis gratuit
-          </a>
+        <div className="mt-12 flex flex-wrap items-center gap-x-6 gap-y-4">
+          <OnSeVoit />
           <span className="flex items-center gap-2 text-sm text-white/70">
             <MapPin className="h-4 w-4" /> Paris et banlieue
           </span>
